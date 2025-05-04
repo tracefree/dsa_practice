@@ -11,8 +11,10 @@ set(CMAKE_CXX_FLAGS_RELWITHDEBINFO " ${CMAKE_CXX_FLAGS_INIT} -O2 -g -DDEBUG")
 
 add_executable(dsa
     src/main.cpp
+    src/common.cpp
     src/fibonacci.cpp
     src/arrays/bubble_sort.cpp
+    src/arrays/quick_sort.cpp
 )
 
 target_link_options(dsa PRIVATE -static-libgcc -static-libstdc++)

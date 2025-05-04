@@ -2,6 +2,7 @@
 #include <print>
 #include <fmt/ranges.h>
 
+
 void bubble_sort(std::vector<int>& array) {
     bool swapped_this_run = false;
     for (size_t run = 0; run < array.size(); run++) {
