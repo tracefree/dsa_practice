@@ -18,6 +18,7 @@ add_executable(dsa
     src/hashtable/hashset.cpp
     src/hashtable/hashmap.cpp
     src/tree/binary_tree.cpp
+    src/tree/bst.cpp
 )
 
 target_link_options(dsa PRIVATE -static-libgcc -static-libstdc++)

@@ -47,7 +47,7 @@ void BinaryTreeNode<T>::post_order_traversal() {
 }
 
 void test_binary_tree() {
-    std::println("- Tree: Binary tree");
+    std::println("- Tree: Binary Tree");
     BinaryTreeNode<char> tree('R');
     
     tree.left = std::make_unique<BinaryTreeNode<char>>('A');

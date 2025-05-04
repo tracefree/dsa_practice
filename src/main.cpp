@@ -4,6 +4,7 @@
 #include "hashtable/hashset.hpp"
 #include "hashtable/hashmap.hpp"
 #include "tree/binary_tree.hpp"
+#include "tree/bst.hpp"
 
 #include <print>
 
@@ -16,6 +17,6 @@ int main() {
     test_hashset();
     test_hashmap();
     test_binary_tree();
-    
+    test_bst();
     return 0;
 }
