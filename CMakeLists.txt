@@ -17,6 +17,7 @@ add_executable(dsa
     src/arrays/quick_sort.cpp
     src/hashtable/hashset.cpp
     src/hashtable/hashmap.cpp
+    src/tree/binary_tree.cpp
 )
 
 target_link_options(dsa PRIVATE -static-libgcc -static-libstdc++)

@@ -63,5 +63,10 @@ void test_hashmap() {
     std::println("Contains 'Rie': {}", hashmap.contains("Rie"));
     std::println("Contains 'Monica': {}", hashmap.contains("Monica"));
     std::println("Value for 'Rie': {}", hashmap.get("Rie"));
+
+    HashMap<std::string> last_names;
+    last_names.store("John", "von Neumann");
+    last_names.store("Emmy", "Noether");
+    std::println("Last name for 'Emmy': {}", last_names.get("Emmy"));
 }
 

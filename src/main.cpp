@@ -3,6 +3,7 @@
 #include "arrays/quick_sort.hpp"
 #include "hashtable/hashset.hpp"
 #include "hashtable/hashmap.hpp"
+#include "tree/binary_tree.hpp"
 
 #include <print>
 
@@ -14,6 +15,7 @@ int main() {
     test_quick_sort();
     test_hashset();
     test_hashmap();
+    test_binary_tree();
     
     return 0;
 }
