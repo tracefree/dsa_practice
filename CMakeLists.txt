@@ -15,6 +15,7 @@ add_executable(dsa
     src/fibonacci.cpp
     src/arrays/bubble_sort.cpp
     src/arrays/quick_sort.cpp
+    src/hashtable/hashset.cpp
 )
 
 target_link_options(dsa PRIVATE -static-libgcc -static-libstdc++)
